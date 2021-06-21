@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+e5ce3f5f89e64b9642570bdab1a39cfcd070beca refs/remotes/origin/1-start
+301eae7ebbafa9791c3e48c80e135e9ab0ddff0e refs/remotes/origin/dependabot/npm_and_yarn/elliptic-6.5.4
+4fc654203a8d962be91cfedffe5806dac563f7c4 refs/remotes/origin/dependabot/npm_and_yarn/hosted-git-info-2.8.9
+7c1625adec4f63184014f803e2d239f248d22811 refs/remotes/origin/dependabot/npm_and_yarn/lodash-4.17.21
+523dab5ccf15a5235a5339c194afeace0a1466e5 refs/remotes/origin/dependabot/npm_and_yarn/socket.io-2.4.1
+33b0757fac8e9376feb99fc67db41bbf3db16411 refs/remotes/origin/dependabot/npm_and_yarn/ssri-6.0.2
+0532fa774dff7234ae07e8bd8aa8bb0e6d0ecb66 refs/remotes/origin/dependabot/npm_and_yarn/url-parse-1.5.1
+3792719faa3424e15b6c0c616641e13ba9779fc3 refs/remotes/origin/dependabot/npm_and_yarn/y18n-4.0.1
+504a406dc77e6002925616cc259b4883a4c8f12b refs/remotes/origin/master
