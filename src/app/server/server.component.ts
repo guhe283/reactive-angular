@@ -21,7 +21,26 @@ export class ServerComponent implements OnInit {
 
   }
 
-  serverElements = [];
+  serverElements = [{
+    type: 'server', name:'Testserver',content:'Just a test!'}];
+  newServerName = '';
+    newServerContent = '';
+
+    onAddServer() {
+      this.serverElements.push({
+        type: 'server',
+        name: this.newServerName,
+        content: this.newServerContent
+      });
+    }
+
+  onAddBlueprint() {
+      this.serverElements.push({
+        type: 'blueprint',
+        name: this.newServerName,
+        content: this.newServerContent
+      });
+    }
 
 
 
