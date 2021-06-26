@@ -11,7 +11,8 @@ import { AuthStore } from '../services/auth.store';
   styleUrls: ['./server.component.scss']
 })
 export class ServerComponent implements OnInit {
- 
+
+
   constructor() {
 
   }
@@ -22,26 +23,8 @@ export class ServerComponent implements OnInit {
   }
 
   serverElements = [{
-    type: 'server', name:'Testserver',content:'Just a test!'}];
-  newServerName = '';
-    newServerContent = '';
-
-    onAddServer() {
-      this.serverElements.push({
-        type: 'server',
-        name: this.newServerName,
-        content: this.newServerContent
-      });
-    }
-
-  onAddBlueprint() {
-      this.serverElements.push({
-        type: 'blueprint',
-        name: this.newServerName,
-        content: this.newServerContent
-      });
-    }
-
+    type: 'server', name: 'Testserver', content: 'Just a test!'
+  }];
 
 
 }
