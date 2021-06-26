@@ -36,6 +36,9 @@ import { LoadingComponent } from './loading/loading.component';
 import { CoursesCardListComponent } from './courses-card-list/courses-card-list.component';
 import {LoadingService} from './loading/loading.service';
 import {MessagesService} from './messages/messages.service';
+import { ServerComponent } from './server/server.component';
+import { ServerElementComponent } from './server-element/server-element.component';
+import { CockpitElementComponent } from './cockpit-element/cockpit-element.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +48,15 @@ import {MessagesService} from './messages/messages.service';
     CourseComponent,
     CourseDialogComponent,
     LoginComponent,
+    ServerComponent,
     LessonComponent,
     SafeUrlPipe,
     MessagesComponent,
     SearchLessonsComponent,
     LoadingComponent,
-    CoursesCardListComponent
+    CoursesCardListComponent,
+    ServerElementComponent,
+    CockpitElementComponent
 
   ],
   imports: [
@@ -75,6 +81,7 @@ import {MessagesService} from './messages/messages.service';
     MatSelectModule,
     MatDatepickerModule,
     MatMomentDateModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [

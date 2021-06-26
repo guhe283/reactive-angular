@@ -23,3 +23,12 @@ main {
   flex: 1 1 auto;
   width: 100%;
 }
+
+.container {
+  margin-top: 30px;
+}
+
+p {
+  color: blue;
+}
+

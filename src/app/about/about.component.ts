@@ -24,6 +24,8 @@ import {delayWhen, filter, map, take, timeout} from 'rxjs/operators';
     styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+  newServerName='';
+  newServerContent='';
 
     ngOnInit() {
 
@@ -36,6 +38,10 @@ export class AboutComponent implements OnInit {
 
 
   }
+  onAddServer(){
+
+  }
+  onAddBluePrint(){}
 
 
 }
