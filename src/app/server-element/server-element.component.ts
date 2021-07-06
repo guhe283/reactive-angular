@@ -7,10 +7,13 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ServerElementComponent implements OnInit {
   @Input('srvElement') element: { type: string, name: string, content: string }; // define a type
+  @Input('myVar') myElement="dumme nuss"; // define a type
+ 
 
   constructor() { }
 
   ngOnInit(): void {
+   
   }
 
 }

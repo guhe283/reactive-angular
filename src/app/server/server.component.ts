@@ -11,6 +11,8 @@ import { AuthStore } from '../services/auth.store';
   styleUrls: ['./server.component.scss']
 })
 export class ServerComponent implements OnInit {
+ // var:string;
+ var1 ='sadsdgfdfgdasfg';
 
 
   constructor() {
@@ -18,9 +20,13 @@ export class ServerComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.var1 ='11sadxcv xcvxcvxsdgfdfgdasfg11';
+    
+ 
 
 
   }
+
 
 serverElements = [{
     type: 'server', name: 'Testserver1', content: 'Just a test!'
@@ -33,6 +39,7 @@ serverElements = [{
       content: serverData.serverContent
       
     });
+
     
   }
 
@@ -42,6 +49,10 @@ serverElements = [{
       name: blueprintData.serverName,
       content: blueprintData.serverContent
     });
+  }
+
+  myInfo(data:{info: string}) {
+    this.var1=data.info;
   }
 
 
