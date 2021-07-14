@@ -6,6 +6,8 @@ import {CourseComponent} from './course/course.component';
 import {LoginComponent} from './login/login.component';
 import {SearchLessonsComponent} from './search-lessons/search-lessons.component';
 import { ServerComponent } from './server/server.component';
+import { UserComponent } from './user/user.component';
+import { ObserverbaleComponent } from './oberverbale/observerbale.component';
 
 const routes: Routes = [
   {
@@ -34,6 +36,13 @@ const routes: Routes = [
     component: ServerComponent
   },
   {
+    path: 'oberverbal',
+    component: ObserverbaleComponent
+  },
+  {path: 'user/:id', 
+  component: UserComponent},
+  {
+  
     path: '**',
     redirectTo: '/'
   }

@@ -39,6 +39,8 @@ import {MessagesService} from './messages/messages.service';
 import { ServerComponent } from './server/server.component';
 import { ServerElementComponent } from './server-element/server-element.component';
 import { CockpitElementComponent } from './cockpit-element/cockpit-element.component';
+import { UserComponent } from './user/user.component';
+import { ObserverbaleComponent } from './oberverbale/observerbale.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { CockpitElementComponent } from './cockpit-element/cockpit-element.compo
     LoadingComponent,
     CoursesCardListComponent,
     ServerElementComponent,
-    CockpitElementComponent
+    CockpitElementComponent,
+    UserComponent,
+    ObserverbaleComponent
 
   ],
   imports: [
