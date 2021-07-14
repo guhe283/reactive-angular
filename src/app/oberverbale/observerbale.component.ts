@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
-import { map,filter } from 'rxjs/operators';
+import { map, filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-observerbale',
@@ -30,16 +30,16 @@ export class ObserverbaleComponent implements OnInit {
       }, 1000);
 
     });
-    this.firstSubscrition = customInternalObservable.pipe(filter(d=>{
-      return d >0;
-    }),map((data:number)=>{
-      return 'Round' + (data +1);
+    this.firstSubscrition = customInternalObservable.pipe(filter(d => {
+      return d > 0;
+    }), map((data: number) => {
+      return 'Round' + (data + 1);
     })).subscribe(data => {
       console.log('===>', data);
     }, error => {
       console.log('===>', error);
       alert(error.message);
-    },()=>{
+    }, () => {
       console.log('Complete, unsubscribe is not necessary. see observer complete')
     });
   }
